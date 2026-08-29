@@ -114,7 +114,7 @@ if __name__ == '__main__':
     t.start()
     
     # ၃။ Bot ကို ဖွင့်မည်
-    TOKEN = "YOUR_BOT_TOKEN_HERE" # ဤနေရာတွင် သင့် Token ထည့်ပါ
+    TOKEN = "8823632853:AAGyL901l62FnpXLUgto8XvDXZ0UBp1CFSA" # ဤနေရာတွင် သင့် Token ထည့်ပါ
     app = ApplicationBuilder().token(TOKEN).build()
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("predict", predict))
