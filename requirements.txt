@@ -1,4 +1,4 @@
 text
-   pyTelegramBotAPI
-   requests
-   flask
+pyTelegramBotAPI
+requests
+flask
